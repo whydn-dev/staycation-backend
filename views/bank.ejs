@@ -1,0 +1,49 @@
+<%- include('partials/header.ejs') %>
+
+<body id="page-top">
+    <div id="wrapper">
+        <%- include('partials/sidebar.ejs') %> 
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <%- include('partials/navbar.ejs') %> 
+                <div class="container-fluid">
+                    <h1 class="h3 mb-4 text-gray-800">Welcome to Bank</h1>
+
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>No</th>
+                                            <th>Name</th>
+                                            <th>No Rekening</th>
+                                            <th>Nama Pemilik</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Tiger Nixon</td>
+                                            <td>System Architect</td>
+                                            <td>Edinburgh</td>
+                                            <td>Edinburgh</td>
+                                            <td>Edinburgh</td>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <%- include('partials/footer.ejs') %> 
+        </div>
+    </div>
+    
+    <%- include('partials/bottom.ejs') %> 
+</body>
+
+</html>
